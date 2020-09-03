@@ -1,5 +1,5 @@
 body {
-    background-color: #FC5E55; 
+    background-image:linear-gradient( #FC5E55, #FA4083); 
 }
 
 .container {
@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    background-color: rgb(41, 96, 36);
     display: flex;
     justify-content: space-between;
     align-items: center;
