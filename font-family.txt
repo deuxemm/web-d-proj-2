@@ -1,0 +1,10 @@
+HTML
+HEAD
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+CSS
+------
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto', sans-serif;
