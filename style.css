@@ -114,3 +114,7 @@ a.mybutton {
     display: inline-block;
     padding-top: 10px;
 }
+
+nav a.mybutton {
+    margin-left: 30px;
+}
