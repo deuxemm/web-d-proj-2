@@ -108,3 +108,8 @@ p {
     font-family: 'Playfair Display', serif;
     padding: 11px 25px;
 }
+
+a.mybutton {
+    display: inline-block;
+    padding-top: 10px;
+}
