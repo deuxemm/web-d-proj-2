@@ -23,6 +23,7 @@ header {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid white;
 }
 
 main {
@@ -112,9 +113,16 @@ p {
 
 a.mybutton {
     display: inline-block;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 nav a.mybutton {
     margin-left: 30px;
+}
+
+.navbutton {
+   border: 1px solid white;
+   padding: 11px 25px;
+   font-family: 'Playfair Display', serif;
+
 }
