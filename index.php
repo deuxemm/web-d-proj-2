@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Roar Cycle - Contact Us Details Address Phone Number</title>
-    <meta name="description" content="Contact details for Roar - 57 Moyglare Abbey, Dublin, w23ck1k2. Phone +353 5465481">
+    <title>Roar Cycle - Bike Repairs in Dublin</title>
 
         <!-- This is Eric Meyers reset -->
         <link rel="stylesheet" href="css-reset.css">
@@ -25,8 +24,10 @@
 
         <header>
             <div>
-                <a href="index.html"><img src="/images/logo-roar-bikes.svg" alt="Logo for bike repair shop Roar Bikes">
-                </a>
+                <div class="logo">
+                    <a href="index.html"><img src="/images/logo-roar-bikes.svg" alt="Logo for bike repair shop Roar Bikes">
+                    </a>
+                </div>
             </div>
 
             <nav>
@@ -47,33 +48,25 @@
                 </div>
 
                 <div class="navbutton">
-                    <a href="#">Contact</a>
+                    <a href="contact-us.html">Contact</a>
                 </div>
 
             </nav>
     
         </header>
 
-        
-        <div class="main2">
-        
-            <h1>
-                Contact Us
-            </h1>
-            <p>
-                Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
-            </p>
-
-            <form action="mail.php" method="post">
-
-                <input type="text" name="name" id="name">
-                <input type="email" name="email" id="email">
-                <input type="submit" value="Send">
-
-            </form>
-
-        </div>
-            
+        <main>
+            <div class="herobox1">
+                <h1>Mobile bike repairs</h1>
+                <p>Many people have difficulty getting their bikes to a bike shop. We call to your office or home anywhere in greater Dublin.
+                </p>
+                <p>Fast, convenient bike servicing with up-front pricing. All without the hassle of taking your bike into a shop.</p>
+                <a href="test-page.html" class="mybutton">Book Online</a>
+            </div>
+            <div class="herobox2">
+            <img src="/images/image-bike-repair-service-a.jpg" alt="person servicing a bike in Dublin">
+            </div>
+        </main>
 
         <div class="cards">
             <div class="card1">
