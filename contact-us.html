@@ -25,7 +25,7 @@
 
         <header>
             <div>
-                <a href="index.html"><img src="/images/logo-roar-bikes.svg" alt="Logo for bike repair shop Roar Bikes">
+                <a href="index.html"><img src="/web-d-proj-2/images/logo-roar-bikes.svg" alt="Logo for bike repair shop Roar Bikes">
                 </a>
             </div>
 
@@ -66,8 +66,16 @@
 
             <form action="mail.php" method="post">
 
-                <input type="text" name="name" id="name">
-                <input type="email" name="email" id="email">
+                <div class="inputwrapper">
+                    <label for="name">first name</label>
+                    <input type="text" name="name" id="name" placeholder="name">
+                </div>
+
+                <div class="inputwrapper">
+                    <label for="email">your email</label>
+                    <input type="email" name="email" id="email" placeholder="someone@domain.com">
+                </div>
+
                 <input type="submit" value="Send">
 
             </form>
