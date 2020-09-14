@@ -67,12 +67,12 @@
             <form action="mail.php" method="post">
 
                 <div class="inputwrapper">
-                    <label for="name">first name</label>
+                    <label for="name" class="newline ">first name</label>
                     <input type="text" name="name" id="name" placeholder="name">
                 </div>
 
                 <div class="inputwrapper">
-                    <label for="email">your email</label>
+                    <label for="email" class="newline">your email</label>
                     <input type="email" name="email" id="email" placeholder="someone@domain.com">
                 </div>
 
@@ -82,13 +82,14 @@
 
                 <div class="inputwrapper">
                     <input type="checkbox" name="email-subscribe" id="email-subscribe" value="yes-sign-me-up" checked>
-                    <label for="checkbox">subscribe to email</label>
+                    <label for="checkbox" >subscribe to email</label>
                 </div>
 
                 <div class="inputwrapper">
                     <p>Preferred contact method</p>
                     <input type="radio" name="contact-pref" id="by-phone" value="Phone">
-                    <label for="by-phone" >Phone</label>
+                    <label for="by-phone" class="margin-right-a">Phone</label>
+
                     <input type="radio" name="contact-pref" id="by-email" value="Email">
                     <label for="by-email">Email</label>
                 </div>
@@ -107,7 +108,7 @@
 
                 </div>
 
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" class="mybutton">
 
             </form>
 
